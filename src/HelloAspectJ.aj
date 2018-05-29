@@ -8,4 +8,5 @@ public aspect HelloAspectJ {
     after() : callSayHello()  {
         System.out.println("After call sayHello");
     }  
+    
 }  
